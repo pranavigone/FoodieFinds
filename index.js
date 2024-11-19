@@ -13,7 +13,7 @@ let db;
 
 (async () => {
   db = await open({
-    filename: './database.sqlite',
+    filename: 'database.sqlite',
     driver: sqlite3.Database,
   });
 })();
