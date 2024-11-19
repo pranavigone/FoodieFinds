@@ -1,6 +1,5 @@
 {
   "version": 2,
   "builds": [{ "src": "index.js", "use": "@vercel/node" }],
-  "rewrites": [{ "source": "/(.*)", "destination": "index.js" }],
-  "files": ["database.sqlite"]
+  "rewrites": [{ "source": "/(.*)", "destination": "index.js" }]
 }
